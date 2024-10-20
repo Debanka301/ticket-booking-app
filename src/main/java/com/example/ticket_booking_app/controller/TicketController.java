@@ -39,7 +39,4 @@ public class TicketController {
 	                .map(ResponseEntity::ok)
 	                .orElse(ResponseEntity.badRequest().build());
 	    }
-	
-	
-
 }
