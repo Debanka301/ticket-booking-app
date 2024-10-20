@@ -9,6 +9,5 @@ import com.example.ticket_booking_app.entity.Ticket;
 
 @Repository
 public interface TicketRepository extends JpaRepository<Ticket, Integer>{
-
 	List<Ticket> findByEventNameAndStatus(String eventName, Ticket.TicketStatus status);
 }
